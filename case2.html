@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case 02</title>
+    <link rel="icon" href="/assets/images/logo.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+      }
+
+      header {
+        display: flex;
+        height: 60px;
+        font-weight: bold;
+        font-size: 1.1rem;
+        background-color: white;
+      }
+
+      .logo {
+        position: absolute;
+      }
+
+      .navBar {
+        display: flex;
+        column-gap: 20px;
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        padding: 0;
+      }
+
+      .navBar a {
+        text-decoration: none;
+        color: black;
+      }
+
+      section {
+        position: relative;
+        display: flex;
+        height: fit-content;
+        background-color: rgb(55, 2, 104);
+      }
+
+      .side-bar {
+        height: 100%;
+        width: 20%;
+        background-color: rgb(133, 83, 18);
+      }
+
+      .side-navigation {
+        position: absolute;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .side-navigation li {
+        list-style: none;
+        text-align: left;
+      }
+
+      .side-navigation li a {
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: white;
+      }
+
+      .content {
+        position: relative;
+        height: fit-content;
+        min-height: 85vh;
+        width: 80%;
+        margin-top: 5px;
+        padding: 5px 30px;
+        background-color: white;
+      }
+
+      .image-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+      }
+
+      .content-image {
+        width: 33.3%;
+        border: 1px solid black;
+      }
+
+      .content p {
+        font-size: 1rem;
+      }
+
+      footer {
+        position: relative;
+        height: 60px;
+        width: 100%;
+        background-color: grey;
+        color: white;
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 60px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="/assests/ijse2.png"
+        height="25px"
+        alt="IJSE logo"
+      />
+
+      <nav class="navBar">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contacts</a>
+        <a href="#">About us</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="side-bar">
+          <nav class="side-navigation">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contacts</a>
+            <a href="#">About us</a>
+          </nav>
+        </div>
+        <div class="content">
+          <div class="image-container">
+            <img
+              class="content-image"
+              src="/assests/giphy.webp"
+              alt="monkey gif"
+            />
+            <img
+              class="content-image"
+              src="/assests/giphy.webp"
+              alt="monkey gif"
+            />
+            <img
+              class="content-image"
+              src="/assests/giphy.webp"
+              alt="monkey gif"
+            />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum
+            reiciendis provident maiores omnis velit culpa quas deleniti sint
+            quod nulla modi, quo eaque quae optio officia cumque itaque
+            obcaecati!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum
+            reiciendis provident maiores omnis velit culpa quas deleniti sint
+            quod nulla modi, quo eaque quae optio officia cumque itaque
+            obcaecati!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum
+            reiciendis provident maiores omnis velit culpa quas deleniti sint
+            quod nulla modi, quo eaque quae optio officia cumque itaque
+            obcaecati!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum
+            reiciendis provident maiores omnis velit culpa quas deleniti sint
+            quod nulla modi, quo eaque quae optio officia cumque itaque
+            obcaecati!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum
+            reiciendis provident maiores omnis velit culpa quas deleniti sint
+            quod nulla modi, quo eaque quae optio officia cumque itaque
+            obcaecati!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum
+            reiciendis provident maiores omnis velit culpa quas deleniti sint
+            quod nulla modi, quo eaque quae optio officia cumque itaque
+            obcaecati!
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Developed By IJSE</p>
+    </footer>
+  </body>
+</html>
